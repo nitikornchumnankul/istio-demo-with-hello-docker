@@ -1,47 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata: 
-  name: nginx-hello-world
+  name: hello-docker
   namespace: istio-system
 spec:
   selector:
     matchLabels:
-      run: nginx-hello-world
+      run: hello-docker
   template:
     metadata:
       labels:
-        run: nginx-hello-world
+        run: hello-docker
     spec:
       containers:
-        - name: nginx-hello-world
+        - name: hello-docker
           image: prakhar1989/static-site
           ports:
             - containerPort: 80
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  

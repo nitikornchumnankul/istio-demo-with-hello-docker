@@ -11,4 +11,4 @@ spec:
     http:
       - route:
            - destination:
-                 host: nginx-hello-world
+                 host: hello-docker
