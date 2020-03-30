@@ -3,11 +3,17 @@
 
 
 ## DOCKER 
+```
 docker run -p 8888:80 prakhar1989/static-site
+```
 [website] https://docker-curriculum.com/
 
 ## WEAVE SCROPE
-
+```
+sudo curl -L git.io/scope -o /usr/local/bin/scope
+sudo chmod a+x /usr/local/bin/scope
+scope launch
+```
 
 ## Google Cloud Platform
 
