@@ -24,5 +24,10 @@ scope launch
 ## GOOGLE CLOUD DNS
 
 
+## KUBERNETES
+
+    kubectl apply -f ./hello-docker
+
+
 
 
